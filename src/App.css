@@ -1,0 +1,23 @@
+:root {
+  --text-accent-color: #eab37e;
+  --text-light: lightgrey;
+  --background-color: black;
+  --accent-color: orange;
+  --border-color: #48a0e1;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-light);
+}
+
+#root > * {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

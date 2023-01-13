@@ -1,0 +1,10 @@
+.homepage-header {
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: space-around;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+}

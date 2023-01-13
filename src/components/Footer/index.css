@@ -1,0 +1,24 @@
+footer > h3 {
+  color: var(--text-accent-color);
+  font-size: 1.25rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  padding-bottom: 5rem;
+  border-top: 2px solid var(--accent-color);
+}
+
+footer > div {
+  display: flex;
+  justify-content: space-between;
+  color: var(--text-light);
+}
+
+footer > div > div {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
