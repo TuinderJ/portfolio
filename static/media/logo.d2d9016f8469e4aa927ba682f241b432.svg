@@ -1,0 +1,8 @@
+<svg color='orange' width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g id="Frame 1">
+    <line id="Top Line" x1="10" y1="20" x2="90" y2="20" stroke="currentColor" stroke-width="10"/>
+    <line id="J Line" x1="35" y1="20" x2="35" y2="62" stroke="currentColor" stroke-width="10"/>
+    <path id="J Curve" d="M35,61 A5,5 0 0,1 15,61" stroke="currentColor" stroke-width="10"/>
+    <line id="T Line" x1="65" y1="20" x2="65" y2="75" stroke="currentColor" stroke-width="10"/>
+  </g>
+</svg>
