@@ -1,3 +1,4 @@
+import './About.css';
 import React, { useEffect } from 'react';
 import { aboutMe } from '../utils/about';
 
@@ -7,5 +8,12 @@ export default function AboutPage({ setActivePage }) {
     document.title = 'Joshua | About';
   }, []);
 
-  return <main>{aboutMe}</main>;
+  return (
+    <main>
+      <h2>My Story</h2>
+      {aboutMe.map((paragraph, index) => (
+        <p key={index}>{paragraph}</p>
+      ))}
+    </main>
+  );
 }
