@@ -1,14 +1,14 @@
-footer > h3 {
-  color: var(--text-accent-color);
-  font-size: 1.25rem;
-}
-
 footer {
   display: flex;
   flex-direction: column;
   margin-top: auto;
   padding-bottom: 5rem;
   border-top: 2px solid var(--accent-color);
+}
+
+footer > h3 {
+  color: var(--text-accent-color);
+  font-size: 1.25rem;
 }
 
 footer > div {

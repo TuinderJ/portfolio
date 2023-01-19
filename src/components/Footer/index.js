@@ -1,24 +1,18 @@
 import './index.css';
-import React from 'react';
-import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillTelephoneFill, BsLinkedin } from 'react-icons/bs';
+import { BsLinkedin, BsGithub } from 'react-icons/bs';
 
 export default function Footer() {
   return (
     <footer>
-      <h3>Contact Me</h3>
+      <h3>Links</h3>
       <div>
         <div>
-          <HiOutlineMail style={{ color: 'var(--border-color)' }} />
-          <span>Joshua.Tuinder@gmail.com</span>
-        </div>
-        <div>
-          <BsFillTelephoneFill style={{ color: 'var(--border-color)' }} />
-          720.413.1681
-        </div>
-        <div>
           <BsLinkedin style={{ color: 'var(--border-color)' }} />
-          www.linkedin.com/yadayada
+          <a href='https://www.linkedin.com/in/joshua-tuinder/'>https://www.linkedin.com/in/joshua-tuinder/</a>
+        </div>
+        <div>
+          <BsGithub style={{ color: 'var(--border-color)' }} />
+          <a href='https://github.com/TuinderJ'>https://github.com/TuinderJ</a>
         </div>
       </div>
     </footer>

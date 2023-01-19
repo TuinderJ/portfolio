@@ -1,0 +1,8 @@
+.profile-picture {
+  width: 225px;
+  height: 225px;
+  object-fit: cover;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: var(--accent-color);
+}

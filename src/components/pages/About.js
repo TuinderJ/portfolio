@@ -1,6 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 export default function AboutPage({ setActivePage }) {
   setActivePage('About');
-  return <div>AboutPage</div>;
+  useEffect(() => {
+    document.title = 'Joshua | About';
+  }, []);
+
+  return <main>AboutPage</main>;
 }

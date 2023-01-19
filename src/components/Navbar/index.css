@@ -21,6 +21,7 @@ nav > ul {
 nav > ul > li > * {
   text-decoration: none;
   color: var(--text-accent-color);
+  font-size: 1.25rem;
 }
 nav > ul > li > .active {
   border-bottom: 1px solid var(--text-accent-color);

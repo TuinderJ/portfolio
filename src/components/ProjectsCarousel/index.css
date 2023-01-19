@@ -1,0 +1,14 @@
+.carousel-container {
+  display: block;
+  /* margin-left: -5vw; */
+  /* margin-right: -5vw; */
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+}

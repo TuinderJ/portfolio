@@ -1,5 +1,6 @@
-import React from 'react';
+import pic from '../../images/profilePicture.png';
+import './index.css';
 
 export default function ProfilePicture() {
-  return <div>ProfilePicture</div>;
+  return <img className='profile-picture' src={pic} alt='Profile'></img>;
 }

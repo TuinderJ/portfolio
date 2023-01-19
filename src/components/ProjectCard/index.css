@@ -1,0 +1,9 @@
+.project-card {
+  margin-top: 2rem;
+}
+
+.project-image {
+  max-width: 10vw;
+  max-height: 10vw;
+  object-fit: contain;
+}

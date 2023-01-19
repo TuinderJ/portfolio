@@ -1,0 +1,51 @@
+.active-project-card {
+  display: flex;
+  align-items: flex-start;
+  height: 25vw;
+}
+
+.deployed-link,
+.repo-link {
+  border: var(--border-color) 1px solid;
+  position: absolute;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.deployed-link:hover,
+.repo-link:hover {
+  background-color: var(--accent-color);
+  color: var(--background-color);
+}
+
+.deployed-link {
+  left: 10vw;
+}
+
+.repo-link {
+  right: 10vw;
+}
+
+.active-project-image {
+  max-width: 40vw;
+  max-height: 20vw;
+  object-fit: contain;
+}
+
+.project {
+  position: relative;
+}
+
+.project::after {
+  position: absolute;
+  content: attr(data-title);
+  color: var(--text-accent-color);
+  background-color: var(--background-color);
+  border-radius: 0.5rem 0.5rem 0 0;
+  border: 1px solid var(--border-color);
+  border-bottom: none;
+  padding: 0.25rem 0.75rem 0 0.75rem;
+  left: 50%;
+  bottom: 0;
+  translate: -50% -0.25rem;
+}
