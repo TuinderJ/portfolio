@@ -1,9 +1,9 @@
 import './App.css';
-import Navbar from './components/Navbar';
 import { Route, Routes } from 'react-router-dom';
-import HomePage from './components/pages/Home';
-import AboutPage from './components/pages/About';
-import ProjectsPage from './components/pages/Projects';
+import Navbar from './components/Navbar';
+import HomePage from './pages/Home';
+import AboutPage from './pages/About';
+import ProjectsPage from './pages/Projects';
 import Footer from './components/Footer';
 import { useState } from 'react';
 

@@ -1,13 +1,13 @@
-import React, { useEffect } from 'react';
-import ProfilePicture from '../ProfilePicture';
-import WelcomeCard from '../WelcomeCard';
-import AboutSummary from '../AboutSummary';
-import StatBlocks from '../StatBlocks';
 import './Home.css';
+import React, { useEffect } from 'react';
+import ProfilePicture from '../components/ProfilePicture';
+import WelcomeCard from '../components/WelcomeCard';
+import AboutSummary from '../components/AboutSummary';
+import StatBlocks from '../components/StatBlocks';
 
 export default function HomePage({ setActivePage }) {
-  setActivePage('Home');
   useEffect(() => {
+    setActivePage('Home');
     document.title = 'Joshua Tuinder';
   }, []);
   return (

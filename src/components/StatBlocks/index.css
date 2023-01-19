@@ -12,3 +12,9 @@
 .stat-block h3 {
   color: var(--text-accent-color);
 }
+
+.stat-block ul {
+  list-style: none;
+  text-decoration: underline;
+  padding-left: 1rem;
+}

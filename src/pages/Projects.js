@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import ActiveProject from '../ActiveProject';
-import ProjectsCarousel from '../ProjectsCarousel';
+import ActiveProject from '../components/ActiveProject';
+import ProjectsCarousel from '../components/ProjectsCarousel';
 
 export default function ProjectsPage({ setActivePage }) {
-  setActivePage('Projects');
   useEffect(() => {
+    setActivePage('Projects');
     document.title = 'Joshua | Projects';
   }, []);
   const [activeProjectIndex, setActiveProjectIndex] = useState(sessionStorage.getItem('activeProjectIndex') || 0);

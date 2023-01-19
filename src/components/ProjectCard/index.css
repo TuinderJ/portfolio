@@ -1,9 +1,26 @@
 .project-card {
   margin-top: 2rem;
+  position: relative;
 }
 
 .project-image {
   max-width: 10vw;
   max-height: 10vw;
   object-fit: contain;
+}
+
+.project-card::after {
+  position: absolute;
+  content: attr(data-title);
+  color: var(--text-accent-color);
+  background-color: var(--background-color);
+  border-radius: 0.5rem 0.5rem 0 0;
+  border: 1px solid var(--border-color);
+  border-bottom: none;
+  padding: 0.25rem 0.75rem 0 0.75rem;
+  left: 50%;
+  bottom: 0;
+  translate: -50% -0.25rem;
+  font-size: 0.75rem;
+  text-align: center;
 }

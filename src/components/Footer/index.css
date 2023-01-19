@@ -9,11 +9,14 @@ footer {
 footer > h3 {
   color: var(--text-accent-color);
   font-size: 1.25rem;
+  text-decoration: underline;
+  text-align: center;
 }
 
 footer > div {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 4rem;
   color: var(--text-light);
 }
 
