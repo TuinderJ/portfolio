@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b44145df.css",
-    "main.js": "/portfolio/static/js/main.ae8130af.js",
-    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/profilePicture.png": "/portfolio/static/media/profilePicture.699a4942ba4a3aa0e17a.png",
-    "static/media/fighting-game.png": "/portfolio/static/media/fighting-game.56be40b265bfc55cd8b1.png",
-    "static/media/truck-data.png": "/portfolio/static/media/truck-data.2adf9483fd9cd5b4682a.png",
-    "static/media/movie-finder.png": "/portfolio/static/media/movie-finder.1902e4bdd6e373dbf1eb.png",
-    "static/media/regen-csv-graph.png": "/portfolio/static/media/regen-csv-graph.ac00047d82c417a27567.png",
-    "static/media/css-cheat-sheet.png": "/portfolio/static/media/css-cheat-sheet.fadd2bed402fea042f54.png",
-    "static/media/vehicle-reference.png": "/portfolio/static/media/vehicle-reference.96331d03112bad561d76.png",
-    "static/media/weather-forcast.png": "/portfolio/static/media/weather-forcast.f82a3673244288bfdfa7.png",
-    "static/media/daily-planner.png": "/portfolio/static/media/daily-planner.9b2b50dcbba5aa26ee47.png",
-    "static/media/tech-blog.png": "/portfolio/static/media/tech-blog.f10c954654e342b9ba46.png",
-    "static/media/password-generator.png": "/portfolio/static/media/password-generator.5e9f2e3a132a18e5ff71.png",
-    "static/media/code-word-guess.png": "/portfolio/static/media/code-word-guess.60d0d830c93703f31cbd.png",
-    "static/media/code-quiz.png": "/portfolio/static/media/code-quiz.c05cd8114ddf34053a37.png",
-    "index.html": "/portfolio/index.html",
-    "static/media/logo.svg": "/portfolio/static/media/logo.d2d9016f8469e4aa927ba682f241b432.svg",
-    "main.b44145df.css.map": "/portfolio/static/css/main.b44145df.css.map",
-    "main.ae8130af.js.map": "/portfolio/static/js/main.ae8130af.js.map",
-    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/static/css/main.b44145df.css",
+    "main.js": "/static/js/main.7194336a.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/profilePicture.png": "/static/media/profilePicture.699a4942ba4a3aa0e17a.png",
+    "static/media/fighting-game.png": "/static/media/fighting-game.56be40b265bfc55cd8b1.png",
+    "static/media/truck-data.png": "/static/media/truck-data.2adf9483fd9cd5b4682a.png",
+    "static/media/movie-finder.png": "/static/media/movie-finder.1902e4bdd6e373dbf1eb.png",
+    "static/media/regen-csv-graph.png": "/static/media/regen-csv-graph.ac00047d82c417a27567.png",
+    "static/media/css-cheat-sheet.png": "/static/media/css-cheat-sheet.fadd2bed402fea042f54.png",
+    "static/media/vehicle-reference.png": "/static/media/vehicle-reference.96331d03112bad561d76.png",
+    "static/media/weather-forcast.png": "/static/media/weather-forcast.f82a3673244288bfdfa7.png",
+    "static/media/daily-planner.png": "/static/media/daily-planner.9b2b50dcbba5aa26ee47.png",
+    "static/media/tech-blog.png": "/static/media/tech-blog.f10c954654e342b9ba46.png",
+    "static/media/password-generator.png": "/static/media/password-generator.5e9f2e3a132a18e5ff71.png",
+    "static/media/code-word-guess.png": "/static/media/code-word-guess.60d0d830c93703f31cbd.png",
+    "static/media/code-quiz.png": "/static/media/code-quiz.c05cd8114ddf34053a37.png",
+    "index.html": "/index.html",
+    "static/media/logo.svg": "/static/media/logo.d2d9016f8469e4aa927ba682f241b432.svg",
+    "main.b44145df.css.map": "/static/css/main.b44145df.css.map",
+    "main.7194336a.js.map": "/static/js/main.7194336a.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b44145df.css",
-    "static/js/main.ae8130af.js"
+    "static/js/main.7194336a.js"
   ]
 }
