@@ -10,7 +10,7 @@ export default function AboutPage({ setActivePage }) {
 
   return (
     <main>
-      <h2>My Story</h2>
+      <h2>My Journey</h2>
       {aboutMe.map((paragraph, index) => (
         <p key={index}>{paragraph}</p>
       ))}
