@@ -22,7 +22,7 @@ const projects = [
   {
     title: 'Truck Data',
     imagePreview: truckDataImage,
-    deployedUrl: 'https://joshuatuinder.com/truck-data/',
+    deployedUrl: 'https://tuinderj.github.io/personal-website/truck-data',
     repoUrl: 'https://github.com/TuinderJ/personal-website/tree/main/truck-data',
   },
   {
