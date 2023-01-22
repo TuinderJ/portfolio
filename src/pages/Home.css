@@ -13,3 +13,20 @@ main > div {
   display: flex;
   justify-content: space-around;
 }
+
+@media screen and (max-width: 480px) {
+  .homepage-header {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  main {
+    height: auto;
+  }
+
+  main > div {
+    flex-direction: column;
+    align-items: center;
+  }
+}

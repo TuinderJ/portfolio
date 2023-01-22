@@ -1,17 +1,17 @@
-import './About.css';
+import './Story.css';
 import React, { useEffect } from 'react';
-import { aboutMe } from '../utils/about';
+import { story } from '../utils/about';
 
 export default function AboutPage({ setActivePage }) {
   useEffect(() => {
-    setActivePage('About');
-    document.title = 'Joshua | About';
+    setActivePage('Story');
+    document.title = 'Joshua | Story';
   }, []);
 
   return (
     <main>
       <h2>My Journey</h2>
-      {aboutMe.map((paragraph, index) => (
+      {story.map((paragraph, index) => (
         <p key={index}>{paragraph}</p>
       ))}
     </main>

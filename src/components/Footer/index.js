@@ -7,12 +7,14 @@ export default function Footer() {
       <h3>Links</h3>
       <div>
         <div>
-          <BsLinkedin style={{ color: 'var(--border-color)' }} />
-          <a href='https://www.linkedin.com/in/joshua-tuinder/'>https://www.linkedin.com/in/joshua-tuinder/</a>
+          <a href='https://www.linkedin.com/in/joshua-tuinder/'>
+            <BsLinkedin style={{ color: 'var(--border-color)' }} />
+          </a>
         </div>
         <div>
-          <BsGithub style={{ color: 'var(--border-color)' }} />
-          <a href='https://github.com/TuinderJ'>https://github.com/TuinderJ</a>
+          <a href='https://github.com/TuinderJ'>
+            <BsGithub style={{ color: 'var(--border-color)' }} />
+          </a>
         </div>
       </div>
     </footer>

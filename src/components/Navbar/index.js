@@ -14,8 +14,8 @@ export default function Navbar({ activePage, activePageHandler }) {
           </Link>
         </li>
         <li>
-          <Link to='/about' className={activePage === 'About' ? 'active' : ''}>
-            About
+          <Link to='/Story' className={activePage === 'Story' ? 'active' : ''}>
+            Story
           </Link>
         </li>
         <li>

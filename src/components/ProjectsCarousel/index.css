@@ -1,7 +1,5 @@
 .carousel-container {
   display: block;
-  /* margin-left: -5vw; */
-  /* margin-right: -5vw; */
 }
 
 .carousel {
@@ -11,4 +9,17 @@
   overflow-x: scroll;
   overflow-y: hidden;
   scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 480px) {
+  .carousel-container {
+    position: absolute;
+    bottom: 22.5%;
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-container {
+  }
 }

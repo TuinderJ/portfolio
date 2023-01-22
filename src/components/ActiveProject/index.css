@@ -49,3 +49,51 @@
   bottom: 0;
   translate: -50% -0.25rem;
 }
+
+@media screen and (max-width: 480px) {
+  main {
+    height: 55vh;
+  }
+
+  .project {
+    top: 35%;
+  }
+
+  .active-project-card {
+    align-items: center;
+    justify-content: flex-start;
+    height: 80vw;
+  }
+
+  .deployed-link,
+  .repo-link {
+    width: 30vw;
+    text-align: center;
+  }
+
+  .active-project-image {
+    max-width: 90vw;
+    max-height: 45vw;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 820px) {
+  .active-project-card {
+    height: 50vh;
+  }
+
+  .deployed-link,
+  .repo-link {
+    width: 30vw;
+    text-align: center;
+  }
+
+  .project {
+    top: 20%;
+  }
+
+  .active-project-image {
+    max-width: 90vw;
+    max-height: 45vw;
+  }
+}
