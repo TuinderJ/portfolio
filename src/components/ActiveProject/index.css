@@ -51,7 +51,7 @@
 }
 
 @media screen and (max-width: 480px) {
-  main {
+  #projects {
     height: 55vh;
   }
 

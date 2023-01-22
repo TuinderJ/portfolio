@@ -10,7 +10,7 @@ export default function ProjectsPage({ setActivePage }) {
   const [activeProjectIndex, setActiveProjectIndex] = useState(sessionStorage.getItem('activeProjectIndex') || 0);
 
   return (
-    <main>
+    <main id='projects'>
       <ActiveProject activeProjectIndex={activeProjectIndex} />
       <ProjectsCarousel setActiveProjectIndex={setActiveProjectIndex} />
     </main>
