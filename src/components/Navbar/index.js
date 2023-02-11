@@ -23,6 +23,11 @@ export default function Navbar({ activePage, activePageHandler }) {
             Projects
           </Link>
         </li>
+        <li>
+          <Link to='/contact' className={activePage === 'Contact' ? 'active' : ''}>
+            Contact
+          </Link>
+        </li>
       </ul>
     </nav>
   );

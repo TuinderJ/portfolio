@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import HomePage from './pages/Home';
 import StoryPage from './pages/Story';
 import ProjectsPage from './pages/Projects';
+import ContactPage from './pages/ContactPage';
 import Footer from './components/Footer';
 import Redirect from './pages/Redirect';
 import { useState } from 'react';
@@ -18,6 +19,7 @@ function App() {
         <Route path='/' element={<HomePage setActivePage={setActivePage} />} />
         <Route path='/story' element={<StoryPage setActivePage={setActivePage} />} />
         <Route path='/projects' element={<ProjectsPage setActivePage={setActivePage} />} />
+        <Route path='/contact' element={<ContactPage setActivePage={setActivePage} />} />
         <Route path='/truck-data' element={<Redirect />} />
       </Routes>
       <Footer />

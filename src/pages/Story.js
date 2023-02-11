@@ -1,5 +1,5 @@
 import './Story.css';
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { story } from '../utils/about';
 
 export default function AboutPage({ setActivePage }) {
