@@ -1,8 +1,8 @@
-import './Story.css';
+import './style.css';
 import { useEffect } from 'react';
-import { story } from '../utils/about';
+import { story } from '../../utils/about';
 
-export default function AboutPage({ setActivePage }) {
+export default function Story({ setActivePage }) {
   useEffect(() => {
     setActivePage('Story');
     document.title = 'Joshua | Story';

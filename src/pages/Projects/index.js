@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import ActiveProject from '../components/ActiveProject';
-import ProjectsCarousel from '../components/ProjectsCarousel';
+import ActiveProject from '../../components/ActiveProject';
+import ProjectsCarousel from '../../components/ProjectsCarousel';
 
 export default function ProjectsPage({ setActivePage }) {
   useEffect(() => {
