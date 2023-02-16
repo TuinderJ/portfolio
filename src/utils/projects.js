@@ -1,5 +1,6 @@
 import fightingGameImage from '../images/projects/fighting-game.png';
 import truckDataImage from '../images/projects/truck-data.png';
+import dinnerPickerImage from '../images/projects/dinner-picker.png';
 import codeQuizImage from '../images/projects/code-quiz.png';
 import codeWordGuessImage from '../images/projects/code-word-guess.png';
 import dailyPlannerImage from '../images/projects/daily-planner.png';
@@ -20,6 +21,12 @@ const projects = [
     imagePreview: truckDataImage,
     deployedUrl: 'https://tuinderj.github.io/personal-website/truck-data',
     repoUrl: 'https://github.com/TuinderJ/personal-website/tree/main/truck-data',
+  },
+  {
+    title: 'Dinner Picker',
+    imagePreview: dinnerPickerImage,
+    deployedUrl: 'https://www.dinnerpicker.online/',
+    repoUrl: 'https://github.com/TuinderJ/dinner-picker',
   },
   {
     title: 'Code Quiz',
