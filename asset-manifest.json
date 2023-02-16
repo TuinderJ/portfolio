@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.5d6dd94e.css",
-    "main.js": "/static/js/main.8d6b22cc.js",
+    "main.js": "/static/js/main.fe2c3ace.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/profilePicture.png": "/static/media/profilePicture.699a4942ba4a3aa0e17a.png",
     "static/media/fighting-game.png": "/static/media/fighting-game.56be40b265bfc55cd8b1.png",
     "static/media/truck-data.png": "/static/media/truck-data.2adf9483fd9cd5b4682a.png",
     "static/media/regen-csv-graph.png": "/static/media/regen-csv-graph.ac00047d82c417a27567.png",
     "static/media/vehicle-reference.png": "/static/media/vehicle-reference.96331d03112bad561d76.png",
+    "static/media/dinner-picker.png": "/static/media/dinner-picker.d4b0ecbe7e08a78ae91f.png",
     "static/media/daily-planner.png": "/static/media/daily-planner.9b2b50dcbba5aa26ee47.png",
     "static/media/tech-blog.png": "/static/media/tech-blog.f10c954654e342b9ba46.png",
     "static/media/password-generator.png": "/static/media/password-generator.5e9f2e3a132a18e5ff71.png",
@@ -16,11 +17,11 @@
     "index.html": "/index.html",
     "static/media/logo.svg": "/static/media/logo.d2d9016f8469e4aa927ba682f241b432.svg",
     "main.5d6dd94e.css.map": "/static/css/main.5d6dd94e.css.map",
-    "main.8d6b22cc.js.map": "/static/js/main.8d6b22cc.js.map",
+    "main.fe2c3ace.js.map": "/static/js/main.fe2c3ace.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5d6dd94e.css",
-    "static/js/main.8d6b22cc.js"
+    "static/js/main.fe2c3ace.js"
   ]
 }
