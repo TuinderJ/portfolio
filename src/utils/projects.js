@@ -3,9 +3,6 @@ import truckDataImage from '../images/projects/truck-data.png';
 import dinnerPickerImage from '../images/projects/dinner-picker.png';
 import codeQuizImage from '../images/projects/code-quiz.png';
 import codeWordGuessImage from '../images/projects/code-word-guess.png';
-import dailyPlannerImage from '../images/projects/daily-planner.png';
-import passwordGeneratorImage from '../images/projects/password-generator.png';
-import regenCsvGraphImage from '../images/projects/regen-csv-graph.png';
 import techBlogImage from '../images/projects/tech-blog.png';
 import vehicleReferenceImage from '../images/projects/vehicle-reference.png';
 
@@ -39,24 +36,6 @@ const projects = [
     imagePreview: codeWordGuessImage,
     deployedUrl: 'https://tuinderj.github.io/code-word-guess/',
     repoUrl: 'https://github.com/TuinderJ/code-word-guess',
-  },
-  {
-    title: 'Daily Planner',
-    imagePreview: dailyPlannerImage,
-    deployedUrl: 'https://tuinderj.github.io/daily-planner/',
-    repoUrl: 'https://github.com/TuinderJ/daily-planner',
-  },
-  {
-    title: 'Password Generator',
-    imagePreview: passwordGeneratorImage,
-    deployedUrl: 'https://tuinderj.github.io/password-generator',
-    repoUrl: 'https://github.com/TuinderJ/password-generator',
-  },
-  {
-    title: 'Regen CSV Graph',
-    imagePreview: regenCsvGraphImage,
-    deployedUrl: 'https://tuinderj.github.io/regen-csv-graph',
-    repoUrl: 'https://github.com/TuinderJ/regen-csv-graph',
   },
   {
     title: 'Tech Blog',
