@@ -15,24 +15,34 @@ footer > h3 {
 }
 
 footer > div {
+  position: relative;
+}
+
+footer > div > div {
   display: flex;
   justify-content: center;
   gap: 4rem;
   color: var(--text-light);
 }
 
-footer > div > div {
+footer > div > div > div {
   display: flex;
   align-items: center;
   gap: 0.25rem;
 }
 
-footer > div > div > a > svg {
+footer > div > div > div > a > svg {
   font-size: 2rem;
 }
 
-footer > div > div > a > svg:hover {
+footer > div > div > div > a > svg:hover {
   color: var(--accent-color) !important;
+}
+
+footer > .badge {
+  margin-left: auto;
+  position: absolute;
+  right: 1rem;
 }
 
 @media screen and (max-width: 820px) {
