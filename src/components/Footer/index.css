@@ -49,4 +49,12 @@ footer > .badge {
   footer {
     padding-bottom: 1rem;
   }
+  footer > .badge {
+    position: initial;
+    margin-right: auto;
+    margin-top: 2rem;
+  }
+  footer > .badge > a > img {
+    width: 10rem;
+  }
 }

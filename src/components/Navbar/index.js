@@ -6,18 +6,20 @@ import './index.css';
 export default function Navbar({ activePage, activePageHandler }) {
   return (
     <nav>
-      <img src={logo} alt='JT logo' />
+      <Link to='/' className={activePage === 'Home' ? 'active' : ''}>
+        <img src={logo} alt='JT logo' />
+      </Link>
       <ul>
         <li>
           <Link to='/' className={activePage === 'Home' ? 'active' : ''}>
-            Home
+            About
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link to='/Story' className={activePage === 'Story' ? 'active' : ''}>
             Story
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link to='/projects' className={activePage === 'Projects' ? 'active' : ''}>
             Projects

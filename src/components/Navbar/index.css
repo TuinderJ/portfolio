@@ -5,8 +5,8 @@ nav {
   border-bottom: 2px solid var(--accent-color);
 }
 
-nav > img {
-  width: 10%;
+nav img {
+  width: 75%;
   display: inline;
 }
 
@@ -25,4 +25,10 @@ nav > ul > li > * {
 }
 nav > ul > li > .active {
   border-bottom: 1px solid var(--text-accent-color);
+}
+
+@media screen and (max-width: 480px) {
+  nav > ul {
+    padding-inline-start: 0;
+  }
 }
