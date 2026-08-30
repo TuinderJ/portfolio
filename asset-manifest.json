@@ -1,21 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.af15af27.css",
-    "main.js": "/static/js/main.f0a6d815.js",
+    "main.js": "/static/js/main.4ef3a7fc.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/profilePicture.png": "/static/media/profilePicture.699a4942ba4a3aa0e17a.png",
     "static/media/fighting-game.png": "/static/media/fighting-game.56be40b265bfc55cd8b1.png",
     "static/media/truck-data.png": "/static/media/truck-data.2adf9483fd9cd5b4682a.png",
-    "static/media/vehicle-reference.png": "/static/media/vehicle-reference.96331d03112bad561d76.png",
-    "static/media/dinner-picker.png": "/static/media/dinner-picker.d4b0ecbe7e08a78ae91f.png",
     "index.html": "/index.html",
     "static/media/logo.svg": "/static/media/logo.5dfce9c0f13fdb73a7422918b3cad0a1.svg",
     "main.af15af27.css.map": "/static/css/main.af15af27.css.map",
-    "main.f0a6d815.js.map": "/static/js/main.f0a6d815.js.map",
+    "main.4ef3a7fc.js.map": "/static/js/main.4ef3a7fc.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.af15af27.css",
-    "static/js/main.f0a6d815.js"
+    "static/js/main.4ef3a7fc.js"
   ]
 }
